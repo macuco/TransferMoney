@@ -1,6 +1,6 @@
 # Java Spring Boot Application / Accounts
 
-Project to control accounts, the functionalities that it have are transfer, get all transactions, get all received transactions, get all sent transactions and get account balance. 
+Project to control accounts, the functionalities that it has are transfer, get all transactions, get all received transactions, get all sent transactions and get account balance. 
 
 ## Built With
 
@@ -52,7 +52,7 @@ The project has initialization information that is defined in the class com.tras
 * User id: 12346 - It has an account number 1000002 with $10000
 * User id: 12347 - It has an account number 1000004 with $1000.50
 
-After that are made the following transfers:
+After that the following transfers are made:
 * From 1000001 to 1000003 with 1000
 * From 1000002 to 1000004 with 1500
 * From 1000004 to 1000003 with 10
