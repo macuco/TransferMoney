@@ -6,7 +6,7 @@ Project to control accounts, the functionalities that it have are transfer, get 
 
 * 	[Maven](https://maven.apache.org/) - Dependency Management
 * 	[JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - Java™ Platform, Standard Edition Development Kit 
-* 	[Spring Boot](https://spring.io/projects/spring-boot) - Framework to ease the bootstrapping and development of new Spring Applications
+* 	[Spring Boot](https://spring.io/projects/spring-boot) - Framework to easy the bootstrapping and development of new Spring Applications
 * 	[git](https://git-scm.com/) - Free and Open-Source distributed version control system 
 
 ## External Tools Used
@@ -47,17 +47,17 @@ mvn spring-boot:run
 
 ## Documentation
 
-The project have a initialization of information that it are defined in the class com.trasnfermoney.config.DataLoader.Java, the information that load are the following:
-* User id: 12345 - have account number 1000001 with $5000 and account number 1000003 with $500
-* User id: 12346 - have account number 1000002 with $10000
-* User id: 12347 - have account number 1000004 with $1000.50
+The project has initialization information that is defined in the class com.trasnfermoney.config.DataLoader.java, the load information is:
+* User id: 12345 - It has an account number 1000001 with $5000 and account number 1000003 with $500
+* User id: 12346 - It has an account number 1000002 with $10000
+* User id: 12347 - It has an account number 1000004 with $1000.50
 
-Next have the following transfers:
+After that are made the following transfers:
 * From 1000001 to 1000003 with 1000
 * From 1000002 to 1000004 with 1500
 * From 1000004 to 1000003 with 10
 
-The final data are:	
+And finally the final data are:	
 * User id: 12345 - have account number 1000001 with $4000 and account number 1000003 with $1510
 * User id: 12346 - have account number 1000002 with $8500
 * User id: 12347 - have account number 1000004 with $2490.50
@@ -66,7 +66,7 @@ The final data are:
 
 ## Files and Directories
 
-The project (a.k.a. project directory) has a particular directory structure. A representative project is shown below:
+The project (project directory) has a particular directory structure. A representative project is shown below:
 
 ```
 .
